@@ -76,6 +76,20 @@ ul { list-style: none; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--teal);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.brand__plane {
+  font-size: 1.3rem;
+  display: inline-block;
+  color: var(--gold-light);
+  line-height: 1;
+  transform: rotate(-10deg);
+  transition: transform 0.3s ease;
+}
+.brand:hover .brand__plane {
+  transform: rotate(0deg) translateX(4px);
 }
 
 .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 6px; }

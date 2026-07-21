@@ -13,7 +13,7 @@
     <div class="site-header__inner">
       <a href="index.html" class="brand">
         <span class="brand__name">Yes We <span>Travel</span> Too</span>
-        <span class="brand__tag">✈ A Melanated Travel Journal</span>
+        <span class="brand__tag"><span class="brand__plane">✈</span> A Melanated Travel Journal</span>
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" onclick="this.parentElement.querySelector('.site-nav').classList.toggle('open')">
         <span></span><span></span><span></span>
@@ -21,7 +21,7 @@
       <nav class="site-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="blog.html">Journal</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="places.html" class="active">Places Traveled</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -36,197 +36,351 @@
       <div class="wrap">
         <p class="page-hero__eyebrow eyebrow">Everywhere I've dropped a pin</p>
         <h1>Places Traveled</h1>
-        <p class="page-hero__sub">Every stamp in the passport, every highway driven, every city that changed me a little. Updated as I go.</p>
+        <p class="page-hero__sub">Every stamp, every highway, every city that left a mark. Domestic and international — updated as I go.</p>
       </div>
     </section>
 
     <section class="places-section-full">
       <div class="wrap">
 
-        <!-- INTERNATIONAL -->
+        <!-- ===== INTERNATIONAL ===== -->
         <div class="places-category">
           <h2>International</h2>
-          <div style="margin-bottom: 28px;"></div>
+          <div style="margin-bottom:28px;"></div>
           <div class="stamp-grid">
 
-            <a href="post-nairobi.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🇰🇪</div>
-              <div class="stamp-tile__code">NBO</div>
-              <div class="stamp-tile__name">Nairobi, Kenya</div>
-              <div class="stamp-tile__date">Jan 2025</div>
-              <span class="stamp-tile__badge">Africa</span>
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🇯🇵</div>
+              <div class="stamp-tile__code">OKA</div>
+              <div class="stamp-tile__name">Okinawa, Japan</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Asia</span>
             </a>
 
-            <a href="post-lisbon.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🇵🇹</div>
-              <div class="stamp-tile__code">LIS</div>
-              <div class="stamp-tile__name">Lisbon, Portugal</div>
-              <div class="stamp-tile__date">Nov 2024</div>
-              <span class="stamp-tile__badge">Europe</span>
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🗼</div>
+              <div class="stamp-tile__code">TYO</div>
+              <div class="stamp-tile__name">Tokyo, Japan</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Asia</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
               <div class="stamp-tile__flag">🇯🇲</div>
               <div class="stamp-tile__code">MBJ</div>
               <div class="stamp-tile__name">Montego Bay, Jamaica</div>
-              <div class="stamp-tile__date">Jun 2024</div>
+              <div class="stamp-tile__date">Visited</div>
               <span class="stamp-tile__badge">Caribbean</span>
-            </a>
-
-            <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🇲🇽</div>
-              <div class="stamp-tile__code">CUN</div>
-              <div class="stamp-tile__name">Cancún, Mexico</div>
-              <div class="stamp-tile__date">Dec 2023</div>
-              <span class="stamp-tile__badge">Latin Am</span>
-            </a>
-
-            <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🇬🇭</div>
-              <div class="stamp-tile__code">ACC</div>
-              <div class="stamp-tile__name">Accra, Ghana</div>
-              <div class="stamp-tile__date">Sep 2023</div>
-              <span class="stamp-tile__badge">Africa</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
               <div class="stamp-tile__flag">🇩🇴</div>
-              <div class="stamp-tile__code">PUJ</div>
-              <div class="stamp-tile__name">Punta Cana, DR</div>
-              <div class="stamp-tile__date">May 2023</div>
+              <div class="stamp-tile__code">SDQ</div>
+              <div class="stamp-tile__name">Dominican Republic</div>
+              <div class="stamp-tile__date">Visited</div>
               <span class="stamp-tile__badge">Caribbean</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🇮🇹</div>
-              <div class="stamp-tile__code">FCO</div>
-              <div class="stamp-tile__name">Rome, Italy</div>
-              <div class="stamp-tile__date">Oct 2022</div>
-              <span class="stamp-tile__badge">Europe</span>
+              <div class="stamp-tile__flag">🌵</div>
+              <div class="stamp-tile__code">SJD</div>
+              <div class="stamp-tile__name">Los Cabos, Mexico</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Latin Am</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🇧🇸</div>
-              <div class="stamp-tile__code">NAS</div>
-              <div class="stamp-tile__name">Nassau, Bahamas</div>
-              <div class="stamp-tile__date">Jul 2022</div>
-              <span class="stamp-tile__badge">Caribbean</span>
+              <div class="stamp-tile__flag">🌴</div>
+              <div class="stamp-tile__code">CUN</div>
+              <div class="stamp-tile__name">Tulum, Mexico</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Latin Am</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🍁</div>
+              <div class="stamp-tile__code">YUL</div>
+              <div class="stamp-tile__name">Montreal, Canada</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Canada</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🦫</div>
+              <div class="stamp-tile__code">YYZ</div>
+              <div class="stamp-tile__name">Toronto, Canada</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Canada</span>
             </a>
 
           </div>
         </div>
 
-        <!-- DOMESTIC -->
+        <!-- ===== DOMESTIC — SOUTH ===== -->
         <div class="places-category">
-          <h2>Domestic</h2>
-          <div style="margin-bottom: 28px;"></div>
+          <h2>Domestic · The South</h2>
+          <div style="margin-bottom:28px;"></div>
           <div class="stamp-grid">
-
-            <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🍑</div>
-              <div class="stamp-tile__code">ATL</div>
-              <div class="stamp-tile__name">Atlanta, GA</div>
-              <div class="stamp-tile__date">Mar 2025</div>
-              <span class="stamp-tile__badge">South</span>
-            </a>
 
             <a href="post-nola.html" class="stamp-tile">
               <div class="stamp-tile__flag">🎶</div>
               <div class="stamp-tile__code">MSY</div>
               <div class="stamp-tile__name">New Orleans, LA</div>
-              <div class="stamp-tile__date">Aug 2024</div>
-              <span class="stamp-tile__badge">South</span>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Louisiana</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🌴</div>
-              <div class="stamp-tile__code">MIA</div>
-              <div class="stamp-tile__name">Miami, FL</div>
-              <div class="stamp-tile__date">Jan 2024</div>
-              <span class="stamp-tile__badge">South</span>
+              <div class="stamp-tile__flag">🦞</div>
+              <div class="stamp-tile__code">BTR</div>
+              <div class="stamp-tile__name">Baton Rouge, LA</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Louisiana</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">⚜️</div>
+              <div class="stamp-tile__code">SHV</div>
+              <div class="stamp-tile__name">Shreveport, LA</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Louisiana</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🍑</div>
+              <div class="stamp-tile__code">ATL</div>
+              <div class="stamp-tile__name">Atlanta, GA</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Georgia</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌳</div>
+              <div class="stamp-tile__code">SAV</div>
+              <div class="stamp-tile__name">Savannah, GA</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Georgia</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
               <div class="stamp-tile__flag">🎸</div>
               <div class="stamp-tile__code">BNA</div>
               <div class="stamp-tile__name">Nashville, TN</div>
-              <div class="stamp-tile__date">Oct 2023</div>
-              <span class="stamp-tile__badge">South</span>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Tennessee</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🗽</div>
-              <div class="stamp-tile__code">JFK</div>
-              <div class="stamp-tile__name">New York, NY</div>
-              <div class="stamp-tile__date">Jun 2023</div>
-              <span class="stamp-tile__badge">Northeast</span>
+              <div class="stamp-tile__flag">⛰️</div>
+              <div class="stamp-tile__code">TYS</div>
+              <div class="stamp-tile__name">Gatlinburg, TN</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Tennessee</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🌁</div>
-              <div class="stamp-tile__code">SFO</div>
-              <div class="stamp-tile__name">San Francisco, CA</div>
-              <div class="stamp-tile__date">Apr 2023</div>
-              <span class="stamp-tile__badge">West</span>
+              <div class="stamp-tile__flag">🎵</div>
+              <div class="stamp-tile__code">MEM</div>
+              <div class="stamp-tile__name">Memphis, TN</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Tennessee</span>
             </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">✊🏾</div>
+              <div class="stamp-tile__code">MGM</div>
+              <div class="stamp-tile__name">Montgomery, AL</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Alabama</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🏙️</div>
+              <div class="stamp-tile__code">BHM</div>
+              <div class="stamp-tile__name">Birmingham, AL</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Alabama</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">⚓</div>
+              <div class="stamp-tile__code">MOB</div>
+              <div class="stamp-tile__name">Mobile, AL</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Alabama</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🐘</div>
+              <div class="stamp-tile__code">TCL</div>
+              <div class="stamp-tile__name">Tuscaloosa, AL</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Alabama</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌊</div>
+              <div class="stamp-tile__code">JAX</div>
+              <div class="stamp-tile__name">Jacksonville, FL</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Florida</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🎢</div>
+              <div class="stamp-tile__code">MCO</div>
+              <div class="stamp-tile__name">Orlando, FL</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Florida</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌲</div>
+              <div class="stamp-tile__code">AVL</div>
+              <div class="stamp-tile__name">Asheville, NC</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">N. Carolina</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🏔️</div>
+              <div class="stamp-tile__code">CHK</div>
+              <div class="stamp-tile__name">Cherokee, NC</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">N. Carolina</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌺</div>
+              <div class="stamp-tile__code">CHS</div>
+              <div class="stamp-tile__name">Charleston, SC</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">S. Carolina</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌾</div>
+              <div class="stamp-tile__code">LIT</div>
+              <div class="stamp-tile__name">Little Rock, AR</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Arkansas</span>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- ===== DOMESTIC — TEXAS ===== -->
+        <div class="places-category">
+          <h2>Domestic · Texas</h2>
+          <div style="margin-bottom:28px;"></div>
+          <div class="stamp-grid">
 
             <a href="blog.html" class="stamp-tile">
               <div class="stamp-tile__flag">🤠</div>
               <div class="stamp-tile__code">AUS</div>
               <div class="stamp-tile__name">Austin, TX</div>
-              <div class="stamp-tile__date">Feb 2023</div>
-              <span class="stamp-tile__badge">South</span>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Texas</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🌿</div>
-              <div class="stamp-tile__code">SAV</div>
-              <div class="stamp-tile__name">Savannah, GA</div>
-              <div class="stamp-tile__date">Nov 2022</div>
-              <span class="stamp-tile__badge">South</span>
+              <div class="stamp-tile__flag">🛢️</div>
+              <div class="stamp-tile__code">IAH</div>
+              <div class="stamp-tile__name">Houston, TX</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Texas</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">⭐</div>
+              <div class="stamp-tile__code">DAL</div>
+              <div class="stamp-tile__name">Dallas, TX</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Texas</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌮</div>
+              <div class="stamp-tile__code">SAT</div>
+              <div class="stamp-tile__name">San Antonio, TX</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Texas</span>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- ===== DOMESTIC — MIDWEST & WEST ===== -->
+        <div class="places-category">
+          <h2>Domestic · Midwest &amp; West</h2>
+          <div style="margin-bottom:28px;"></div>
+          <div class="stamp-grid">
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌬️</div>
+              <div class="stamp-tile__code">ORD</div>
+              <div class="stamp-tile__name">Chicago, IL</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Illinois</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🏎️</div>
+              <div class="stamp-tile__code">IND</div>
+              <div class="stamp-tile__name">Indianapolis, IN</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Indiana</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🌽</div>
+              <div class="stamp-tile__code">DSM</div>
+              <div class="stamp-tile__name">Des Moines, IA</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Iowa</span>
+            </a>
+
+            <a href="blog.html" class="stamp-tile">
+              <div class="stamp-tile__flag">🏔️</div>
+              <div class="stamp-tile__code">DEN</div>
+              <div class="stamp-tile__name">Denver, CO</div>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Colorado</span>
             </a>
 
             <a href="blog.html" class="stamp-tile">
               <div class="stamp-tile__flag">🎲</div>
               <div class="stamp-tile__code">LAS</div>
               <div class="stamp-tile__name">Las Vegas, NV</div>
-              <div class="stamp-tile__date">Aug 2022</div>
-              <span class="stamp-tile__badge">West</span>
-            </a>
-
-            <a href="blog.html" class="stamp-tile">
-              <div class="stamp-tile__flag">🌊</div>
-              <div class="stamp-tile__code">HNL</div>
-              <div class="stamp-tile__name">Honolulu, HI</div>
-              <div class="stamp-tile__date">May 2022</div>
-              <span class="stamp-tile__badge">West</span>
+              <div class="stamp-tile__date">Visited</div>
+              <span class="stamp-tile__badge">Nevada</span>
             </a>
 
           </div>
         </div>
 
-        <!-- UP NEXT -->
+        <!-- ===== UP NEXT ===== -->
         <div class="places-category">
           <h2>Up Next ✦</h2>
-          <div style="margin-bottom: 28px;"></div>
+          <div style="margin-bottom:28px;"></div>
           <div class="stamp-grid">
-            <div class="stamp-tile" style="opacity:0.55; cursor:default;">
+            <div class="stamp-tile" style="opacity:0.5;cursor:default;">
               <div class="stamp-tile__flag">🇿🇦</div>
               <div class="stamp-tile__code">CPT</div>
               <div class="stamp-tile__name">Cape Town, South Africa</div>
-              <div class="stamp-tile__date">Coming 2025</div>
+              <div class="stamp-tile__date">Coming soon</div>
             </div>
-            <div class="stamp-tile" style="opacity:0.55; cursor:default;">
-              <div class="stamp-tile__flag">🇹🇭</div>
-              <div class="stamp-tile__code">BKK</div>
-              <div class="stamp-tile__name">Bangkok, Thailand</div>
-              <div class="stamp-tile__date">Coming 2025</div>
-            </div>
-            <div class="stamp-tile" style="opacity:0.55; cursor:default;">
+            <div class="stamp-tile" style="opacity:0.5;cursor:default;">
               <div class="stamp-tile__flag">🇧🇷</div>
               <div class="stamp-tile__code">SSA</div>
               <div class="stamp-tile__name">Salvador, Brazil</div>
-              <div class="stamp-tile__date">Coming 2026</div>
+              <div class="stamp-tile__date">Coming soon</div>
+            </div>
+            <div class="stamp-tile" style="opacity:0.5;cursor:default;">
+              <div class="stamp-tile__flag">🇹🇭</div>
+              <div class="stamp-tile__code">BKK</div>
+              <div class="stamp-tile__name">Bangkok, Thailand</div>
+              <div class="stamp-tile__date">Coming soon</div>
             </div>
           </div>
         </div>
@@ -247,7 +401,7 @@
           <h4>Navigate</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog.html">Journal</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="places.html">Places Traveled</a></li>
             <li><a href="contact.html">Contact</a></li>
