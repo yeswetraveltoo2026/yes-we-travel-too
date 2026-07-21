@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ============================================================
+    STEP 1: Update the title below with your post title
+    Example: <title>My Week in Cape Town — Yes We Travel Too</title>
+  ============================================================ -->
+  <title>YOUR POST TITLE HERE — Yes We Travel Too</title>
+
+  <!-- STEP 2: Update the description (shows in Google search results) -->
+  <meta name="description" content="A short 1-2 sentence description of this post goes here."/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ============================================================
+    HEADER — DO NOT CHANGE THIS SECTION
+    Just make sure the nav links stay exactly as they are.
+  ============================================================ -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="brand">
+        <span class="brand__name">Yes We <span>Travel</span> Too</span>
+        <span class="brand__tag">✈ A Melanated Travel Journal</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="this.parentElement.querySelector('.site-nav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="places.html">Places Traveled</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+      STEP 3: Update the category label, title, and date/location below
+      Category examples: International · Africa · Kenya
+                         Domestic · Southeast · Georgia
+                         Travel Tips · Packing
+    ============================================================ -->
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="page-hero__eyebrow eyebrow">International · Africa · Kenya</p>
+        <h1 style="max-width: 20ch;">Your Full Post Title Goes Here</h1>
+      </div>
+    </section>
+
+    <article class="post-article">
+      <div class="wrap">
+        <div class="post-article__wrap">
+
+          <!-- STEP 4: Update the date, destination, and read time -->
+          <div class="post-article__meta">
+            <span>Month Year</span>
+            <span>·</span>
+            <span>City, Country</span>
+            <span>·</span>
+            <span>5 min read</span>
+          </div>
+
+          <!-- ============================================================
+            STEP 5: HERO PHOTO (top image of the post)
+            
+            OPTION A — You have a photo:
+            Upload your photo to the /images/ folder, then use this:
+            
+            <img src="images/your-photo-filename.jpg" 
+                 alt="Describe what's in the photo" 
+                 class="post-hero-img"/>
+            
+            OPTION B — No photo yet, use an emoji placeholder:
+            <div class="post-article__hero">🌍</div>
+            
+            Delete whichever option you are NOT using.
+          ============================================================ -->
+
+          <!-- DELETE THIS LINE if using a real photo: -->
+          <div class="post-article__hero">🌍</div>
+
+          <!-- DELETE THE LINES BELOW if using an emoji placeholder:
+          <img src="images/your-photo-filename.jpg"
+               alt="Describe what's in the photo"
+               class="post-hero-img"/>
+          -->
+
+          <!-- ============================================================
+            STEP 6: WRITE YOUR POST CONTENT BELOW
+            
+            Use these building blocks — copy/paste as many as you need:
+            
+            PARAGRAPH:
+            <p>Your text here.</p>
+            
+            SECTION HEADING:
+            <h2>Heading Goes Here</h2>
+            
+            SUB-HEADING:
+            <h3>Smaller Heading</h3>
+            
+            PULL QUOTE (big italic highlight):
+            <blockquote>"Your memorable quote or line goes here."</blockquote>
+            
+            IN-POST PHOTO (upload image to /images/ folder first):
+            <img src="images/photo-name.jpg" alt="Describe the photo" class="post-img"/>
+            <p class="post-img-caption">Optional caption for the photo above</p>
+            
+            TWO PHOTOS SIDE BY SIDE:
+            <div class="img-grid">
+              <img src="images/photo-one.jpg" alt="Description"/>
+              <img src="images/photo-two.jpg" alt="Description"/>
+            </div>
+            
+            EXTERNAL LINK (opens in new tab):
+            <a href="https://website.com" target="_blank" rel="noopener">Link text here</a>
+            
+            AFFILIATE LINK (for monetization):
+            <a href="https://affiliate-link.com" target="_blank" rel="noopener sponsored">Product name</a>
+            
+            AD UNIT PLACEHOLDER (replace with real AdSense code when ready):
+            <div class="ad-unit">Advertisement</div>
+          ============================================================ -->
+
+          <div class="post-article__body">
+
+            <p>Your opening paragraph goes here. This is what hooks the reader — start with a moment, a feeling, or a scene rather than "I went to X and it was great."</p>
+
+            <p>Second paragraph here. Keep going — tell the story the way you'd tell it to a friend.</p>
+
+            <h2>First Section Heading</h2>
+
+            <p>More content here. You can have as many sections as you want.</p>
+
+            <blockquote>"A memorable line or quote from your experience goes here."</blockquote>
+
+            <p>Continue writing...</p>
+
+            <h2>Second Section Heading</h2>
+
+            <p>More content here.</p>
+
+            <!-- Example of adding a photo inside the post body:
+            <img src="images/your-photo.jpg" alt="Describe the photo" class="post-img"/>
+            <p class="post-img-caption">Caption: what this photo shows, where it was taken</p>
+            -->
+
+            <p>Your closing paragraph. End with something that lingers — why this place mattered, what you'd tell someone before they go, or simply where you're headed next.</p>
+
+          </div>
+
+          <!-- ============================================================
+            STEP 7: Update the tags below.
+            Change "Kenya", "Africa", etc. to match your post's destinations/themes.
+            You can add or remove <a> lines.
+          ============================================================ -->
+          <div class="post-tags">
+            <a href="blog.html" class="tag">Kenya</a>
+            <a href="blog.html" class="tag">Africa</a>
+            <a href="blog.html" class="tag">International</a>
+            <a href="blog.html" class="tag">Your Tag Here</a>
+          </div>
+
+          <!-- ============================================================
+            STEP 8: Update the "Next post" link at the bottom.
+            Change "post-nairobi.html" and the text to point to another post.
+            Or remove the second button entirely if you don't have a next post yet.
+          ============================================================ -->
+          <div style="display:flex; gap:16px; flex-wrap:wrap; margin-top:40px; padding-top:32px; border-top: 2px dashed var(--line);">
+            <a href="blog.html" class="btn btn--outline-dark">← All Stories</a>
+            <a href="post-nairobi.html" class="btn btn--teal">Next: Post Title →</a>
+          </div>
+
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- FOOTER — DO NOT CHANGE -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-brand__name">Yes We <span>Travel</span> Too</div>
+          <p>A melanated traveler's journal covering domestic and international adventures — proof there's room at every gate for us.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="places.html">Places Traveled</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="mailto:hello@yeswetraveltoo.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Yes We Travel Too · Packed light, showed up anyway.</p>
+        <p>Made with ✦ and a lot of boarding passes</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
