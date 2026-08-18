@@ -1,3 +1,4 @@
+<img width="1000" height="714" alt="cabo-lands-end" src="https://github.com/user-attachments/assets/c9e2675c-c35f-48f0-bd8d-eafa8f6f2e2f" />
 # Images Folder
 
 Upload all your blog and page photos here.
