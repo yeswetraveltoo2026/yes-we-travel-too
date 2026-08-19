@@ -1,5 +1,4 @@
-
-# Images Folder
+<img src="images/cabo-lands-end.jpg" alt="Lands End formation, Los Cabos Mexico" class="post-hero-img"/>
 
 Upload all your blog and page photos here.
 
@@ -8,7 +7,7 @@ Use simple, lowercase names with hyphens — no spaces:
 - ✅ `nairobi-market.jpg`
 - ✅ `lisbon-tiles.jpg`
 - ❌ `Nairobi Market Photo.jpg`
-<img width="1000" height="714" alt="cabo-lands-end" src="https://github.com/user-attachments/assets/1c0726a0-a04c-4475-8bf4-a30dadff3552" />
+
 
 ## How to use an image in a post
 In your post HTML file, reference the image like this:
