@@ -1,4 +1,4 @@
-<img src="images/cabo-lands-end.jpg" alt="Lands End formation, Los Cabos Mexico" class="post-hero-img"/>
+
 
 Upload all your blog and page photos here.
 
